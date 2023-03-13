@@ -9,7 +9,7 @@
  *  LICENSE file that was distributed with this source code.
  */
 
-namespace Askvortsov\FlarumHelpTags\Listener;
+namespace Hecksadecimal\FlarumHelpTags\Listener;
 
 use Flarum\Discussion\Event\Saving;
 

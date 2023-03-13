@@ -24,7 +24,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Askvortsov\\FlarumHelpTags\\": "src/"
+      "Hecksadecimal\\FlarumHelpTags\\": "src/"
     }
   },
   "extra": {

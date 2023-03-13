@@ -9,7 +9,7 @@
  *  LICENSE file that was distributed with this source code.
  */
 
-namespace Askvortsov\FlarumHelpTags\Access;
+namespace Hecksadecimal\FlarumHelpTags\Access;
 
 use Flarum\Tags\Tag;
 use Flarum\User\User;

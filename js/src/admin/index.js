@@ -11,11 +11,11 @@ app.initializers.add("askvortsov/flarum-help-tags", () => {
     return required;
   });
 
-  app.extensionData.for("askvortsov-help-tags").registerPermission(
+  app.extensionData.for("hecksadecimal-help-tags").registerPermission(
     {
       icon: "fas fa-eye",
       label: app.translator.trans(
-        "askvortsov-help-tags.admin.permissions.view_tag_label"
+        "hecksadecimal-help-tags.admin.permissions.view_tag_label"
       ),
       permission: "viewTag",
       tagScoped: true,

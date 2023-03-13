@@ -10,7 +10,7 @@ export default function addShowToAllBadge() {
         Badge.component({
           type: "showToAll",
           label: app.translator.trans(
-            "askvortsov-help-tags.forum.badge.show_to_all_tooltip"
+            "hecksadecimal-help-tags.forum.badge.show_to_all_tooltip"
           ),
           icon: "fas fa-eye",
         }),

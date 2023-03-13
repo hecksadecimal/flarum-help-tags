@@ -18,8 +18,8 @@ export default function addShowToAllControl() {
           },
           app.translator.trans(
             discussion.showToAll()
-              ? "askvortsov-help-tags.forum.discussion_controls.unshow_to_all_button"
-              : "askvortsov-help-tags.forum.discussion_controls.show_to_all_button"
+              ? "hecksadecimal-help-tags.forum.discussion_controls.unshow_to_all_button"
+              : "hecksadecimal-help-tags.forum.discussion_controls.show_to_all_button"
           )
         )
       );

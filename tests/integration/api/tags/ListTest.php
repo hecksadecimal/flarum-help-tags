@@ -25,7 +25,7 @@ class ListTest extends TestCase
         parent::setUp();
 
         $this->extension('flarum-tags');
-        $this->extension('askvortsov-help-tags');
+        $this->extension('hecksadecimal-help-tags');
 
         $this->prepareDatabase([
             'tags' => [
