@@ -20,6 +20,8 @@ class GlobalPolicy extends AbstractPolicy
     {
         if ($ability === 'viewForum' && $actor->can('startDiscussion')) {
             return $this->forceAllow();
+        } elseif ($ability === 'reply' && $actor->can('startDiscussion')) {
+            return $this->forceAllow();
         }
 
         if ($ability === 'reply' && $actor->can('startDiscussion')) {
